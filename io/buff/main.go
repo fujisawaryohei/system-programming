@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+//https://zenn.dev/hsaki/books/golang-io-package/viewer/bufio
 func main() {
 	var buffer bytes.Buffer
 	buffer.Write([]byte("bytes.Buffer example\n"))

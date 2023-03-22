@@ -5,6 +5,7 @@ import (
 	"net"
 )
 
+//https://zenn.dev/hsaki/books/golang-io-package/viewer/netconn
 func main() {
 	ln, err := net.Listen("tcp", ":8080")
 	if err != nil {
